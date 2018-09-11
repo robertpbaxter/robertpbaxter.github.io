@@ -1,0 +1,11 @@
+footer{
+    background: var(--rust);
+    color: var(--silk);
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+span{
+    font-family: var(--font1);
+}

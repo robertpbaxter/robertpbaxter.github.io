@@ -1,0 +1,19 @@
+.projectCards{
+    text-align: center;
+}
+
+.portfolioThumb{
+    margin: 1rem 0rem;
+    height: 460px;
+    width: 345px;
+    font-family: var(--font2);
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    background: var(--silk);
+    display: inline-block;
+    text-decoration: none;
+}
+
+a .portfolioThumb{
+    color: var(--charcoal)
+}

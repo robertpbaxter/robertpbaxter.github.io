@@ -1,0 +1,30 @@
+.aboutMe{
+    padding: 1rem;
+}
+
+#portrait{
+    border-radius: 50% !important;
+    margin: 1rem 0rem;
+}
+
+.accordion .card{
+    background: var(--navy);
+}
+
+.accordion .btn-link{
+    font-family: var(--font1);
+    font-size: 2rem;
+    color: var(--rust);
+    text-decoration: none;
+}
+
+.accordion .card-header{
+    background: var(--silk);
+    border: 0;
+}
+
+.accordion .card-body{
+    font-family: var(--font2);
+    color: var(--powder);
+    font-size: 1.5em;
+}

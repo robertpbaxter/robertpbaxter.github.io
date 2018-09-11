@@ -1,0 +1,16 @@
+header{
+    /* height: 100vh; */
+}
+.my-jumbo{
+    text-align: center;
+    background: url(../assets/img/redcanyon-jumbotron.jpg) no-repeat center center;
+    color: var(--silk); /*Font within the jumbotron*/
+    margin: 0;
+    height: 100vh;
+    padding: 20vh 5vh;
+}
+
+.my-jumbo h1{
+    color: var(--silk);
+    text-shadow: 2px 2px 2px var(--charcoal);
+}

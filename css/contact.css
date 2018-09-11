@@ -1,0 +1,47 @@
+body{
+    background: var(--navy);
+}
+
+.contact {
+    background: var(--navy) !important;
+    color: var(--paper);
+}
+
+.contactMe{
+    height: 75px;
+    width: 75px;
+    background: var(--paper);
+    color: var(--rust);
+    padding: auto;
+    margin: 2rem;
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+button:hover .overlay{
+    opacity: 1;
+}
+
+.overlay .text{
+    color: var(--rust);
+    font-size: 2rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: var(--font2);
+}
+

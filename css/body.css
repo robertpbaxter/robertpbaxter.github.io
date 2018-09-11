@@ -1,0 +1,19 @@
+body{
+    background: var(--navy);
+    padding-top: 6.5vh;
+}
+
+.bookmark{
+    margin-bottom: 10vh;
+}
+
+h1{
+    color: var(--rust);
+    text-align: center;
+}
+
+h4{
+    color: var(--paper);
+    font-family: var(--font2);
+    margin-top: 3rem;
+}

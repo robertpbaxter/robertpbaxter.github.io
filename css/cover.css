@@ -1,0 +1,93 @@
+/* Custom button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: var(--charcoal);
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: var(--paper);
+  border: .05rem solid var(--paper);
+}
+
+
+/*
+ * Base structure
+ */
+
+.portal {
+  height: 100%;
+  background: url(../assets/img/canyon-eye-bg.jpg) no-repeat center center;
+  background-color: var(--charcoal);
+}
+
+body.portal {
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--paper);
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container{
+  max-width: 100%;
+  color: var(--paper)
+}
+
+#coverSpacer{
+  height: 35vh;
+}
+
+#mainQ{
+  margin-top: 5vh;
+}
+
+#mainL{
+  margin-bottom: 10vh;
+}
+
+
+
+/*
+ * Animation
+ */
+
+* {
+  box-sizing: border-box;
+
+}
+blockquote {
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0.2em 1em;
+  line-height: 1.2em;
+}
+
+blockquote q {
+  font-family: var(--font1);
+  letter-spacing: .1rem;
+  text-shadow: 0.2rem 0.2rem 2px var(--charcoal);
+}
+
+blockquote q span { 
+  will-change: opacity, filter;
+  opacity: 0;
+  filter: blur(0px);
+}
+
+q {
+  quotes: " " " " " " " ";
+}
+
+q:before {
+    content: open-quote;
+    margin-right: .8rem;
+}
+
+q:after {
+  content: close-quote;
+}
+
+q:before, q:after {
+  color: #ccc;
+  font-size: 4rem;
+}
+
