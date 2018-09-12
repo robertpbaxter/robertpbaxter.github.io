@@ -36,5 +36,4 @@ function splitWords() {
     })
   }
   
-  
   splitWords();

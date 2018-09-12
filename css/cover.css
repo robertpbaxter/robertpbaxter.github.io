@@ -1,4 +1,4 @@
-/* Custom button */
+/* Custom buttons */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
@@ -18,13 +18,11 @@
  */
 
 .portal {
-  height: 100%;
-  background: url(../assets/img/canyon-eye-bg.jpg) no-repeat center center;
-  background-color: var(--charcoal);
+  min-height: 100vh;
+  background: url(../assets/img/canyon-eye-bg.jpg) no-repeat top center;
 }
 
 body.portal {
-  display: -ms-flexbox;
   display: flex;
   color: var(--paper);
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
@@ -33,19 +31,12 @@ body.portal {
 
 .cover-container{
   max-width: 100%;
-  color: var(--paper)
-}
-
-#coverSpacer{
-  height: 25vh;
-}
-
-#mainQ{
-  margin-top: 5vh;
+  color: var(--paper);
+  background-color: transparent;
 }
 
 #mainL{
-  margin-bottom: 10vh;
+  margin-top: 30vh;
 }
 
 
@@ -54,10 +45,6 @@ body.portal {
  *  Quote Animation
  */
 
-* {
-  box-sizing: border-box;
-
-}
 blockquote {
   font-size: 2.5rem;
   padding: 0;
