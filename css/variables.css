@@ -1,11 +1,5 @@
 :root{
-    --stormy: #494e6b;
-    --mountain: #3f3250;
-    --lavender: #6c648b;
-    --oxblood: #76323f;
     --rust: #b56357;
-    --herb: #626e60;
-    --mint: #b4dbc0;
     --palegold: #c0b283;
     --silk:#dcd0c0;
     --paper: #f4f4f4;
@@ -17,3 +11,34 @@
     --font2: 'Oswald', sans-serif;
 
 } 
+
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+ @-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}

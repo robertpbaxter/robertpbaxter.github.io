@@ -4,13 +4,15 @@ header{
 .my-jumbo{
     text-align: center;
     background: url(../assets/img/redcanyon-jumbotron.jpg) no-repeat center center;
+    font-family: var(--font2);
     color: var(--silk); /*Font within the jumbotron*/
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     padding: 20vh 5vh;
 }
 
 .my-jumbo h1{
     color: var(--silk);
-    text-shadow: 2px 2px 2px var(--charcoal);
+    text-shadow: 3px 3px 4px var(--charcoal);
+    /* font-family: var(--font2); */
 }

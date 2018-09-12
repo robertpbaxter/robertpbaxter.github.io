@@ -28,3 +28,11 @@
     color: var(--powder);
     font-size: 1.5em;
 }
+
+.svg{
+    height: 50px;
+    width: 50px;
+    padding: 2px; 
+    background: var(--rust);
+    border-radius: 2px;
+}

@@ -8,12 +8,13 @@ body{
 }
 
 h1{
+    font-family: var(--font2);
     color: var(--rust);
     text-align: center;
 }
 
 h4{
-    color: var(--paper);
+    color: var(--silk);
     font-family: var(--font2);
     margin-top: 3rem;
 }
