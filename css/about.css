@@ -35,4 +35,5 @@
     padding: 2px; 
     background: var(--rust);
     border-radius: 2px;
+    margin: 3px 0;
 }
