@@ -1,7 +1,6 @@
 body{
     background: var(--navy);
     padding-top: 6.5vh;
-    overflow: hidden;
 }
 
 .bookmark{
