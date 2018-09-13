@@ -13,7 +13,9 @@
 
 .accordion .btn-link{
     font-family: var(--font1);
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0;
     color: var(--rust);
     text-decoration: none;
 }

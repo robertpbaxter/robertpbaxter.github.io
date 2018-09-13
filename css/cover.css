@@ -53,7 +53,6 @@ blockquote {
 }
 
 blockquote q {
-  font-family: var(--font1);
   letter-spacing: .1rem;
   text-shadow: 0.2rem 0.2rem 2px var(--charcoal);
 }
@@ -62,6 +61,7 @@ blockquote q span {
   will-change: opacity, filter;
   opacity: 0;
   filter: blur(0px);
+  font-family: var(--font3);
 }
 
 q {
