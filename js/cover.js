@@ -22,7 +22,7 @@ function splitWords() {
     Array.prototype.forEach.call(quotewords, function(word) {
       let animate = word.animate([{
         opacity: 0,
-        filter: "blur("+getRandom(2,5)+"px)"
+        filter: "blur("+getRandom(1,2)+"px)"
       }, {
         opacity: 1,
         filter: "blur(0px)"
